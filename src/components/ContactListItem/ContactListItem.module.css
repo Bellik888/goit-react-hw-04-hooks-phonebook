@@ -6,3 +6,10 @@
   border-radius: 10px;
   background-color: rgba(167, 201, 44, 0.493);
 }
+.button {
+  background-color: rgb(206, 177, 99);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: aliceblue;
+}

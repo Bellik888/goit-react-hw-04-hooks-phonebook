@@ -10,7 +10,11 @@ export const ContactListItem = ({ filter, contacts, deleteItem }) => {
               <p>
                 {name} : {number}
               </p>
-              <button type="button" onClick={() => deleteItem(id)}>
+              <button
+                type="button"
+                className={s.button}
+                onClick={() => deleteItem(id)}
+              >
                 Delete
               </button>
             </li>
@@ -22,7 +26,11 @@ export const ContactListItem = ({ filter, contacts, deleteItem }) => {
                   <p>
                     {name} : {number}
                   </p>
-                  <button type="button" onClick={() => deleteItem(id)}>
+                  <button
+                    type="button"
+                    className={s.button}
+                    onClick={() => deleteItem(id)}
+                  >
                     Delete
                   </button>
                 </li>
